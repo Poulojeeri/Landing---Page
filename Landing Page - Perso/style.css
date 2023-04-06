@@ -1,0 +1,142 @@
+body {
+	font-family: Futura, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	height: 60px;
+    padding-top: 15px;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar-left {
+  padding-left: 80px;
+
+}
+
+.navbar-middle {
+	flex: 3;
+	text-align: center;
+  
+}
+
+.navbar-middle ul {
+	list-style: none;
+	margin: 300px;
+	padding: 0;
+	display: inline-block;
+    padding-left: 20px;
+}
+
+.navbar-middle li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.navbar-middle li:last-child {
+	margin-right: 0;
+}
+
+.navbar-middle a {
+	color: #9d5f35;
+	text-decoration: none;
+	font-size: 13px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+	text-align: center;
+}
+
+.navbar-middle a:hover {
+	color: #333;
+}
+
+.navbar-right a{
+	height: 20px;
+	padding-right: 0px;
+    text-decoration: none;
+	float: right;
+	padding-bottom: 10px;
+	padding-right: 89px;
+	color: #a26b1c;
+}
+
+#accueil {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.right img {
+	height: 700px;
+	float: right;
+	padding-top: 70px;
+	padding-right: 70px;
+	
+}
+
+#gauche{
+	padding-top: 200px;
+}
+
+#gauche h2{
+	color: #9d5f35;
+	padding-left: 150px;
+	font-weight: normal;
+}
+
+
+form {
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+	padding-bottom: 50px;
+	background-color: #9d5f35;
+	margin-left: 40px;
+	border-radius: 20px;
+	padding-left: 40px;
+	padding-top: 60px;
+	padding-right: 20px;
+	margin-left: 180px;
+  }
+
+
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#a26b1c;
+	color: #fff;
+	text-align: left;
+  }
+
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    border: 2px solid #4b4a4a;
+	border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+	width: 300px;
+  }
+
+
+  form button[type="submit"] {
+	height: 50px;
+	font-size: 20px;
+	background-color:#ffffff;
+	color: #9d5f35;
+	border: solid 1px #333;
+	border-radius: 15px;
+    letter-spacing: 2px;
+	cursor: pointer;
+	margin-top: 20px;
+    }
